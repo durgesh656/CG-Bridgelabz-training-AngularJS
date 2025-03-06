@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello From BridgeLabz</title>
-</head>
-
-<body>
   <div>
-    <h1>{{this.title}}</h1>
+    <h1>Hello{{this.username}} From BridgeLabz</h1>
     <img class="logo"  [src]="imgUrl" (click)="onClick($event)" alt="The BridgeLabz logo: a Bridge to Employment through a Lab Works." >
     <h3>Click on the logo to visit the site</h3>
   </div>
-</body>
-</html>
+  <div>
+    <input [(ngModel)] = "username"/> <br><br>
+  </div>
