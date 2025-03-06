@@ -2,3 +2,12 @@
     text-align:center;
     font-size:x-large;
 }
+
+img{
+    margin:0 auto;
+    width: 50%;
+}
+
+.logo{
+    width: 50%;
+}
